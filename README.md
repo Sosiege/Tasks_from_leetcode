@@ -1,2 +1,2 @@
-Single Number II = Medium
+Single Number II = Medium;
 Repeated DNA Sequences = Medium
