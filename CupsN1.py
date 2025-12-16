@@ -1,5 +1,5 @@
-n, X = map(int, input().split())
-boxes = list(map(int, input().split()))
+n, X = [int(i) for i in input().split()]
+boxes = [int(i) for i in input().split()]
 
 remainder_count = dict()
 current_sum = 0
@@ -14,5 +14,6 @@ for num in boxes:
         count += remainder_count[current_sum]
     
     remainder_count[current_sum] = remainder_count.get(current_sum, 0) + 1
+
 
 print(count)
